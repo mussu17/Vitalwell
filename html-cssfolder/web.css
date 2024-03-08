@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.webname{
+    display: flex;
+}
+.webname h1{
+    margin-left: 20px;
+    color: bisque;
+}
+#navbar{
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    height:100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    position: sticky;
+    top: 0px;
+
+}
+#navbar ul{
+    color: white;
+    list-style: none;
+    display: inline;
+    margin-top: 7px;
+}
+.left-nav{
+    display: inline;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.right-nav{
+    margin-right: 30px;
+}
+#login{
+    
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+    width:80px;
+    cursor: pointer;
+    border-style: none;
+    margin-right:30px;
+}
+#login a{
+    color: rgb(85, 85, 133);
+}
+
+#Register{
+    
+    border-style: none;
+    background-color:rgb(104, 207, 223);
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+    width:100px;
+    cursor: pointer;
+    margin-right:30px;
+}
+#Register a{
+    color: rgb(85, 85, 133);
+}
+.center{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(17, 73, 113);
+    width: 100%;
+    height: 80%;
+    color: white;
+}
+.center-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+    align-items: center;
+    margin:30px;
+    
+}
+.first-sentence{
+    font-size: 50px;
+}
+.second-sentence{
+    font-size: 20px;
+    color: rgb(163, 162, 162);
+    margin-top: 30px;
+}
+.contact{
+    
+    background-color:#588ea7;
+    border-radius: 15px;
+    align-self: self-start;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    width:110px;
+    cursor: pointer;
+    border-style: none;
+    margin-right:30px;
+}
+.after-center{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width:100%;
+    font-size: 40px;
+
+}
+.after-sentence{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(23, 33, 90);
+    margin-top: 50px;
+}
+.after-img{
+    width:500px;
+}
+.third{
+    display: flex;
+    margin-top:100px;
+    flex-direction: column;
+}
+.major-anumate{
+    display: flex;
+    flex-direction: row;
+}
